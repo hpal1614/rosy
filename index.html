@@ -10,13 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- EmailJS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
-        })();
-    </script>
+    <!-- Contact form uses JavaScript validation only -->
 </head>
 <body>
     <!-- Navigation -->
@@ -103,22 +97,22 @@
                             <h2>Welcome to Your Transformation Journey</h2>
                             <p>As a certified life coach and motivational speaker, I've dedicated the past 3 years to helping people overcome fear and challenges. My passion lies in inspiring others and bringing positive changes to their lives.</p>
                             <p>From my early days at Kathmandu St Mary Boarding School to completing my bachelor's in International Relations with honor, I've always been driven by the belief that everyone has untapped potential waiting to be discovered.</p>
-                            <div class="welcome-features">
-                                <div class="feature">
+                            <div class="welcome-features cards-container">
+                                <div class="feature card" id="feature-card1">
                                     <span class="feature-icon"><i class="fas fa-bullseye"></i></span>
                                     <div class="feature-content">
                                         <h4>Personalized Approach</h4>
                                         <p>Every individual is unique, and so is their path to success</p>
                                     </div>
                                 </div>
-                                <div class="feature">
+                                <div class="feature card" id="feature-card2">
                                     <span class="feature-icon"><i class="fas fa-dumbbell"></i></span>
                                     <div class="feature-content">
                                         <h4>Proven Methods</h4>
                                         <p>Evidence-based strategies that create lasting change</p>
                                     </div>
                                 </div>
-                                <div class="feature">
+                                <div class="feature card" id="feature-card3">
                                     <span class="feature-icon"><i class="fas fa-hands-helping"></i></span>
                                     <div class="feature-content">
                                         <h4>Ongoing Support</h4>
@@ -796,8 +790,8 @@
 
                             <div class="success-message" id="successMessage">
                                 <i class="fas fa-check-circle"></i>
-                                <h4>Thank you for your message!</h4>
-                                <p>We'll get back to you within 24 hours. You should also receive a confirmation email shortly.</p>
+                                <h4>Form Submitted Successfully!</h4>
+                                <p>Thank you for your message. Your form has been validated and submitted successfully. (This is a demonstration for assignment purposes)</p>
                             </div>
                         </div>
 
@@ -1056,7 +1050,7 @@
                                     <span><i class="fas fa-tag"></i> Personal Growth</span>
                                 </div>
                                 <h3>5 Steps to Overcome Limiting Beliefs</h3>
-                                <p>Discover proven strategies to identify and overcome mental barriers that prevent you from reaching your full potential.</p>
+                                <p>Many people struggle with self-doubt and limiting beliefs that hold them back from achieving their dreams. In my years of coaching, I have discovered five powerful strategies that help people break through these mental barriers. First, you must identify what these beliefs actually are - many people don't even realize they have them.</p>
                                 <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </article>
@@ -1071,7 +1065,7 @@
                                     <span><i class="fas fa-tag"></i> Goal Setting</span>
                                 </div>
                                 <h3>The Power of Meaningful Goals</h3>
-                                <p>Learn how to set goals that truly matter and create actionable plans to achieve them consistently.</p>
+                                <p>Setting goals is more than just writing down what you want to achieve. During my coaching sessions, I often see people set goals that aren't truly meaningful to them. This leads to lack of motivation and eventual failure. The secret is to connect your goals with your deeper values and purpose in life.</p>
                                 <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </article>
@@ -1086,7 +1080,7 @@
                                     <span><i class="fas fa-tag"></i> Confidence</span>
                                 </div>
                                 <h3>Building Unshakeable Confidence</h3>
-                                <p>Practical techniques and mindset shifts to build lasting confidence and overcome self-doubt in any situation.</p>
+                                <p>Confidence isn't something you're born with - it's a skill you can develop. Through my workshops, I've seen people transform from being shy and uncertain to becoming bold and decisive. The journey starts with understanding that confidence comes from action, not the other way around.</p>
                                 <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </article>
@@ -1101,7 +1095,37 @@
                                     <span><i class="fas fa-tag"></i> Mindset</span>
                                 </div>
                                 <h3>The Growth Mindset Revolution</h3>
-                                <p>Understand how adopting a growth mindset can transform every area of your life and unlock new possibilities.</p>
+                                <p>Your mindset determines your success more than your circumstances ever will. I've learned this from my own journey and from working with hundreds of clients. When you shift from a fixed mindset to a growth mindset, everything changes - your relationships, your career, and most importantly, your relationship with yourself.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Dec 28, 2024</span>
+                                    <span><i class="fas fa-tag"></i> Self-Care</span>
+                                </div>
+                                <h3>Why Self-Care Isn't Selfish</h3>
+                                <p>Many people, especially women, feel guilty about taking time for themselves. I used to struggle with this too. But I've learned that self-care isn't selfish - it's necessary. When you take care of yourself first, you become better able to help others and pursue your goals with energy and enthusiasm.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-mountain"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Dec 20, 2024</span>
+                                    <span><i class="fas fa-tag"></i> Life Coaching</span>
+                                </div>
+                                <h3>My Journey to Becoming a Life Coach</h3>
+                                <p>People often ask me how I became a life coach. The truth is, my journey wasn't planned - it grew out of my own struggles and transformation. After facing significant challenges in my own life, I discovered the power of personal development and knew I had to share what I learned with others.</p>
                                 <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </article>
