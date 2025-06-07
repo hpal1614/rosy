@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosy's Life-Changing Motivation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" data-page="home">Rosy</a>
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="services">Services</a></li>
+                <li><a href="#" class="nav-link" data-page="testimonials">Testimonials</a></li>
+                <li><a href="#" class="nav-link" data-page="events">Events</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+                <li><a href="#" class="nav-link" data-page="faq">FAQ</a></li>
+                <li><a href="#" class="nav-link" data-page="blog">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <section class="hero">
+                <div class="parallax-bg"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Transform Your Life with Personalized Coaching</h1>
+                            <p>Discover your potential through proven strategies, meaningful connections, and authentic guidance that creates lasting positive change.</p>
+                            <div class="hero-actions">
+                                <a href="#" class="btn btn-primary" data-page="services">Explore Services</a>
+                                <a href="#" class="btn btn-secondary" data-page="contact">Get Started</a>
+                            </div>
+                        </div>
+                        <div class="hero-visual">
+                            <div class="motivation-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scroll Indicator -->
+                <div class="scroll-indicator">
+                    <div class="scroll-arrow">
+                        <span>Scroll Down</span>
+                        <div class="arrow-down"><i class="fas fa-chevron-down"></i></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Lives Transformed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3 Years</h3>
+                            <p>Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Workshops</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="welcome-section parallax-section">
+                <div class="parallax-bg-welcome"></div>
+                <div class="container">
+                    <div class="welcome-content">
+                        <div class="welcome-text">
+                            <h2>Welcome to Your Transformation Journey</h2>
+                            <p>As a certified life coach and motivational speaker, I've dedicated the past 3 years to helping people overcome fear and challenges. My passion lies in inspiring others and bringing positive changes to their lives.</p>
+                            <p>From my early days at Kathmandu St Mary Boarding School to completing my bachelor's in International Relations with honor, I've always been driven by the belief that everyone has untapped potential waiting to be discovered.</p>
+                            <div class="welcome-features">
+                                <div class="feature">
+                                    <span class="feature-icon"><i class="fas fa-bullseye"></i></span>
+                                    <div class="feature-content">
+                                        <h4>Personalized Approach</h4>
+                                        <p>Every individual is unique, and so is their path to success</p>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon"><i class="fas fa-dumbbell"></i></span>
+                                    <div class="feature-content">
+                                        <h4>Proven Methods</h4>
+                                        <p>Evidence-based strategies that create lasting change</p>
+                                    </div>
+                                </div>
+                                <div class="feature">
+                                    <span class="feature-icon"><i class="fas fa-hands-helping"></i></span>
+                                    <div class="feature-content">
+                                        <h4>Ongoing Support</h4>
+                                        <p>Continuous guidance throughout your transformation journey</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="welcome-image">
+                            <div class="image-placeholder large">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-services parallax-section">
+                <div class="parallax-bg-2"></div>
+                <div class="container">
+                    <div class="section-header">
+                        <h2>How I Can Help You</h2>
+                        <p>Comprehensive coaching solutions designed to unlock your potential</p>
+                    </div>
+                    <div class="featured-services-grid">
+                        <div class="featured-service">
+                            <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+                            <h3>1-on-1 Life Coaching</h3>
+                            <p>Personalized sessions tailored to your specific goals and challenges. Work directly with me to overcome obstacles and create the life you've always wanted.</p>
+                            <a href="#" class="service-link" data-page="services">Learn More</a>
+                        </div>
+                        <div class="featured-service">
+                            <div class="service-icon"><i class="fas fa-users"></i></div>
+                            <h3>Group Workshops</h3>
+                            <p>Join like-minded individuals in transformative group sessions. Experience the power of collective growth and mutual support.</p>
+                            <a href="#" class="service-link" data-page="events">View Workshops</a>
+                        </div>
+                        <div class="featured-service">
+                            <div class="service-icon"><i class="fas fa-microphone"></i></div>
+                            <h3>Motivational Speaking</h3>
+                            <p>Inspiring keynote speeches for corporate events, conferences, and educational institutions. Energize your audience with powerful messages.</p>
+                            <a href="#" class="service-link" data-page="contact">Book Speaker</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="upcoming-events-preview">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Don't Miss These Upcoming Events</h2>
+                        <p>Join us for life-changing workshops and seminars</p>
+                    </div>
+                    <div class="events-preview-grid">
+                        <div class="event-preview">
+                            <div class="event-date">Jan 15</div>
+                            <h3>Mindset Mastery</h3>
+                            <p>Online Webinar</p>
+                            <span class="event-tag">Available Now</span>
+                        </div>
+                        <div class="event-preview">
+                            <div class="event-date">Jan 18</div>
+                            <h3>Building Confidence</h3>
+                            <p>Sydney, Australia</p>
+                            <span class="event-tag">In-Person</span>
+                        </div>
+                        <div class="event-preview">
+                            <div class="event-date">Feb 17</div>
+                            <h3>Annual Motivation Summit</h3>
+                            <p>Melbourne, Australia</p>
+                            <span class="event-tag">Featured Event</span>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <a href="#" class="btn btn-primary" data-page="events">View All Events</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials-preview">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>What People Are Saying</h2>
+                        <p>Real transformations from real people</p>
+                    </div>
+                    <div class="testimonials-preview-grid">
+                        <div class="testimonial-preview">
+                            <blockquote>"Rosy's coaching transformed my life. Her insights helped me overcome years of self-doubt."</blockquote>
+                            <cite>- Sarah K.</cite>
+                        </div>
+                        <div class="testimonial-preview">
+                            <blockquote>"The workshops were insightful and motivational. I left feeling more confident."</blockquote>
+                            <cite>- John D.</cite>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 2rem;">
+                        <a href="#" class="btn btn-secondary" data-page="testimonials">Read More Stories</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-section parallax-section">
+                <div class="parallax-bg-3"></div>
+                <div class="container">
+                    <div class="cta-content">
+                        <h2>Ready to Start Your Transformation?</h2>
+                        <p>Take the first step towards the life you've always dreamed of. Let's work together to unlock your potential and create lasting positive change.</p>
+                        <div class="cta-actions">
+                            <a href="#" class="btn btn-primary" data-page="contact">Get Started Today</a>
+                            <a href="#" class="btn btn-secondary" data-page="about">Learn My Story</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>About Rosy</h1>
+                        <p>Certified life coach dedicated to helping people overcome challenges and create meaningful change</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="about-content">
+                        <div class="about-image">
+                            <div class="image-placeholder large">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="about-text">
+                            <h3>My Story</h3>
+                            <p>As a certified life coach and motivational speaker, I've dedicated the past 3 years of my life to help people overcome fear and challenges. I've always been fascinated by the idea of inspiring people and bringing positive changes in people's lives.</p>
+                            
+                            <p>I finished my schooling in Kathmandu St Mary Boarding School. I was highly passionate and driven from my childhood. My teachers used to say "you will be something great in future, I see that potential in you." Those positive words pushed me to become a better version of myself every day.</p>
+                            
+                            <p>I participated in various vocational programs, public speaking, spelling and GK contests. I finished my bachelor's in International Relations back home with honor in 2021.</p>
+
+                            <h3>My Mission</h3>
+                            <p>My mission is to empower individuals to take control of their lives. I've experienced significant challenges and transformations in my life. My purpose centers on helping others overcome emotional and mental difficulties by sharing my stories and insights, guiding people to live more fulfilling lives.</p>
+                            
+                            <p>I'm deeply passionate about personal development and believe in the power of self-improvement. I want to encourage others to unlock their potential, set meaningful goals, and pursue their dreams.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Services Page -->
+        <div id="services" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>Our Services</h1>
+                        <p>Comprehensive coaching solutions designed to help you achieve your goals</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+                            <h3>1-on-1 Coaching</h3>
+                            <p>Personalized coaching sessions to help you overcome specific challenges and unlock your full potential with tailored strategies.</p>
+                            <a href="#" class="service-link" data-page="contact">Book Session</a>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-users"></i></div>
+                            <h3>Group Workshops</h3>
+                            <p>Join transformative workshops designed to help you prosper in life alongside like-minded individuals in a supportive environment.</p>
+                            <a href="#" class="service-link" data-page="events">View Workshops</a>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-laptop"></i></div>
+                            <h3>Online Webinars</h3>
+                            <p>Participate in engaging online sessions covering various aspects of personal development, accessible from anywhere.</p>
+                            <a href="#" class="service-link" data-page="events">Join Webinar</a>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="service-icon"><i class="fas fa-microphone"></i></div>
+                            <h3>Speaking Events</h3>
+                            <p>Inspiring keynote speeches for corporate events, conferences, and educational institutions to motivate audiences.</p>
+                            <a href="#" class="service-link" data-page="contact">Book Speaker</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Testimonials Page -->
+        <div id="testimonials" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>What People Say</h1>
+                        <p>Real stories from people whose lives have been transformed</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="testimonials-grid">
+                        <div class="testimonial">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <blockquote>"Rosy's coaching transformed my life. Her insights and guidance helped me overcome years of self-doubt and achieve goals I never thought possible."</blockquote>
+                            </div>
+                            <cite>- Sarah K.</cite>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <blockquote>"The workshops were insightful and motivational. I left each session feeling more confident and equipped with practical tools for personal growth."</blockquote>
+                            </div>
+                            <cite>- John D.</cite>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <blockquote>"They connected with the audience on a personal level, sharing stories that really resonated with me. It felt like they understood exactly what I was going through."</blockquote>
+                            </div>
+                            <cite>- Rubie Marshall</cite>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <blockquote>"Her energy was contagious! Her team kept the audience engaged from start to finish with their passion and enthusiasm."</blockquote>
+                            </div>
+                            <cite>- Sephora M.</cite>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Events Page -->
+        <div id="events" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>Upcoming Events</h1>
+                        <p>Join us for transformative workshops and seminars</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="events-grid">
+                        <div class="event">
+                            <div class="event-header">
+                                <div class="event-date">Jan 15, 2025</div>
+                                <div class="event-type">Online</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Mindset Mastery</h3>
+                                <p class="event-location"><i class="fas fa-globe"></i> Online Webinar</p>
+                                <p>Transform your mindset and unlock your potential with proven strategies for overcoming limiting beliefs.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-header">
+                                <div class="event-date">Jan 18, 2025</div>
+                                <div class="event-type">In-Person</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Building Confidence</h3>
+                                <p class="event-location"><i class="fas fa-map-marker-alt"></i> Sydney, Australia</p>
+                                <p>A hands-on workshop focused on building unshakeable confidence through practical exercises and coaching.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-header">
+                                <div class="event-date">Jan 20, 2025</div>
+                                <div class="event-type">Online</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Leadership Training</h3>
+                                <p class="event-location"><i class="fas fa-globe"></i> Online Webinar</p>
+                                <p>Develop essential leadership skills and learn how to inspire and guide others towards success.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-header">
+                                <div class="event-date">Jan 23, 2025</div>
+                                <div class="event-type">In-Person</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Growth & Empowerment</h3>
+                                <p class="event-location"><i class="fas fa-map-marker-alt"></i> Sydney, Australia</p>
+                                <p>Intensive seminar focused on personal growth strategies and creating lasting positive change.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="event">
+                            <div class="event-header">
+                                <div class="event-date">Jan 25, 2025</div>
+                                <div class="event-type">In-Person</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Overcoming Limiting Beliefs</h3>
+                                <p class="event-location"><i class="fas fa-map-marker-alt"></i> Canberra, Australia</p>
+                                <p>Learn to identify and overcome the beliefs that hold you back from achieving your dreams.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="event featured-event">
+                            <div class="event-header">
+                                <div class="event-date">Feb 17, 2025</div>
+                                <div class="event-type">Featured</div>
+                            </div>
+                            <div class="event-content">
+                                <h3>Annual Motivation Summit</h3>
+                                <p class="event-location"><i class="fas fa-map-marker-alt"></i> Melbourne, Australia</p>
+                                <p>Our flagship conference featuring top speakers in motivation, success strategies, and leadership.</p>
+                                <a href="#" class="btn btn-primary" data-page="contact">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>Get in Touch</h1>
+                        <p>Ready to start your transformation journey? Let's connect</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="contact-content">
+                        <div class="contact-form">
+                            <div class="form-header">
+                                <h3><i class="fas fa-paper-plane"></i> Send us a Message</h3>
+                                <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                            </div>
+                            
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    <div class="error-message">Please enter your name</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    <div class="error-message">Please enter a valid email address</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+                                    <div class="error-message">Please enter a subject</div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message"><i class="fas fa-comment"></i> Message</label>
+                                    <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                                    <div class="error-message">Please enter a message (at least 10 characters)</div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-large">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                            </form>
+
+                            <div class="success-message" id="successMessage">
+                                <i class="fas fa-check-circle"></i>
+                                <h4>Thank you for your message!</h4>
+                                <p>We'll get back to you within 24 hours. You should also receive a confirmation email shortly.</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <p>contact@rosylifemotivation.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <p>+977 0402794000</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Address</h4>
+                                    <p>4/72 Noble Street<br>Hurstville, NSW<br>Australia</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-share-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Follow Us</h4>
+                                    <div class="social-links">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- FAQ Page -->
+        <div id="faq" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>Frequently Asked Questions</h1>
+                        <p>Find answers to common questions about our services</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What types of coaching do you offer?</span>
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We offer a variety of services, including one-on-one coaching, group workshops, online webinars, and corporate speaking events. Each service is designed to address different aspects of personal and professional development.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>How can I book a session?</span>
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Booking is simple! Visit our Contact page and send us a message with your preferred service and availability. We'll respond within 24 hours to confirm your session.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Where are your workshops held?</span>
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>We host both online webinars and in-person workshops in major cities across Australia, including Sydney, Melbourne, and Canberra. Check our Events page for upcoming locations.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Do you offer refunds?</span>
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Refunds are available up to 7 days before an event. For individual coaching sessions, we have a 48-hour cancellation policy. Please review our cancellation policy for complete details.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>What is the duration of coaching programs?</span>
+                                <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Our comprehensive life coaching program runs for 12 weeks with weekly sessions. We also offer shorter workshops and single sessions based on your specific needs and goals.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Blog Page -->
+        <div id="blog" class="page">
+            <section class="hero-page">
+                <div class="container">
+                    <div class="hero-page-content">
+                        <h1>Latest Insights</h1>
+                        <p>Discover strategies and insights for personal transformation</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section">
+                <div class="container">
+                    <div class="blog-grid">
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Jan 20, 2025</span>
+                                    <span><i class="fas fa-tag"></i> Personal Growth</span>
+                                </div>
+                                <h3>5 Steps to Overcome Limiting Beliefs</h3>
+                                <p>Discover proven strategies to identify and overcome mental barriers that prevent you from reaching your full potential.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Jan 15, 2025</span>
+                                    <span><i class="fas fa-tag"></i> Goal Setting</span>
+                                </div>
+                                <h3>The Power of Meaningful Goals</h3>
+                                <p>Learn how to set goals that truly matter and create actionable plans to achieve them consistently.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-fist-raised"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Jan 10, 2025</span>
+                                    <span><i class="fas fa-tag"></i> Confidence</span>
+                                </div>
+                                <h3>Building Unshakeable Confidence</h3>
+                                <p>Practical techniques and mindset shifts to build lasting confidence and overcome self-doubt in any situation.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="blog-image">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="fas fa-calendar"></i> Jan 5, 2025</span>
+                                    <span><i class="fas fa-tag"></i> Mindset</span>
+                                </div>
+                                <h3>The Growth Mindset Revolution</h3>
+                                <p>Understand how adopting a growth mindset can transform every area of your life and unlock new possibilities.</p>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="blog-footer">
+                        <div class="newsletter-signup">
+                            <h3><i class="fas fa-envelope"></i> Stay Updated</h3>
+                            <p>Subscribe to our newsletter for the latest insights and tips on personal transformation.</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Enter your email address" required>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>Rosy's Life-Changing Motivation</h3>
+                            <p>Empowering individuals to take control of their lives through personalized coaching, motivational speaking, and transformative workshops.</p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="about">About Rosy</a></li>
+                                <li><a href="#" data-page="testimonials">Success Stories</a></li>
+                                <li><a href="#" data-page="blog">Latest Articles</a></li>
+                                <li><a href="#" data-page="faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Our Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#" data-page="services">1-on-1 Coaching</a></li>
+                                <li><a href="#" data-page="services">Group Workshops</a></li>
+                                <li><a href="#" data-page="services">Online Webinars</a></li>
+                                <li><a href="#" data-page="services">Speaking Events</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Get in Touch</h4>
+                            <div class="footer-contact">
+                                <p><i class="fas fa-envelope"></i> contact@rosylifemotivation.com</p>
+                                <p><i class="fas fa-phone"></i> +977 0402794000</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 4/72 Noble Street<br>Hurstville, NSW, Australia</p>
+                            </div>
+                            <a href="#" class="btn btn-primary" data-page="contact" style="margin-top: 1rem;">Book a Session</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 Rosy's Life-Changing Motivation. All rights reserved.</p>
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cancellation Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
